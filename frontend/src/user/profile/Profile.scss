@@ -1,0 +1,33 @@
+.profile-container {
+  padding-top: 280px;
+  display: grid;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  &-success {
+    width: 500px;
+    height: 80px;
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+      font-weight: 600;
+    }
+  }
+
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+      width: 120px;
+      margin-top: 40px;
+    }
+  }
+}
